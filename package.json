@@ -1,0 +1,24 @@
+{
+  "name": "todolist",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BrownBright/ToDolist.git"
+  },
+  "author": "Abduallah Ibrahim",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BrownBright/ToDolist/issues"
+  },
+  "homepage": "https://github.com/BrownBright/ToDolist#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "expressjs": "^1.0.1",
+    "nodemon": "^2.0.7"
+  }
+}
