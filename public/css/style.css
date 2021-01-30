@@ -39,7 +39,6 @@ font-weight:lighter;
     margin-top: 10px;
     margin-bottom: 10px;
     opacity: 100%;
-
 }
 
 
@@ -47,10 +46,18 @@ font-weight:lighter;
         display: flex;
         align-items: center;
         justify-content: space-between;
-
 }
 
 .forminput{
     position: relative;
     height: 2.3rem;
+}
+
+
+footer{
+    position: relative;
+    text-align: center;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+
 }
