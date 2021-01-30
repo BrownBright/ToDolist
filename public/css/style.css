@@ -1,0 +1,56 @@
+body {
+    background-image: url("../img/back.jpg");
+    font-family: 'Raleway',
+    sans-serif;
+}
+
+.headtitle{
+    
+    align-items: center;
+    margin: auto;
+
+}
+
+h1{
+font-family: 'Londrina Solid',
+cursive;
+font-weight:lighter;
+            margin-top: 10px;
+            margin-bottom: 10px;
+           
+}
+.notes{ 
+    position: relative;
+    
+      margin: auto;
+}
+
+.deleters{
+  position: relative;
+   top:50%;
+   right: 1;
+
+}
+
+.card{
+    background-color: rgb(211, 224, 234, .7);
+    position: relative;
+    margin: auto ;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    opacity: 100%;
+
+}
+
+
+.card-body{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+}
+
+.forminput{
+    position: relative;
+    height: 2.3rem;
+}
