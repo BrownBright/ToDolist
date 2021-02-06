@@ -25,7 +25,6 @@ app.post('/', function (req, res) {
     let item = req.body.newitem;
                 if(req.body.hasOwnProperty("adder")){
                 handler.add_item(items , item , req , res);
-                console.log(req.body)
                  }if(req.body.hasOwnProperty("deleter")){
                     handler.delete_item(items , req.body.deleter , res)
                  }
